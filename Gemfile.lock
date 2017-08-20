@@ -3,7 +3,6 @@ GEM
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
-    hashie (3.5.6)
     httparty (0.15.6)
       multi_xml (>= 0.5.2)
     multi_xml (0.6.0)
@@ -26,7 +25,6 @@ PLATFORMS
 
 DEPENDENCIES
   addressable
-  hashie
   httparty
   rack-test
   sinatra

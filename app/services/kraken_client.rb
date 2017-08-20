@@ -2,7 +2,6 @@ require 'base64'
 require 'securerandom'
 require 'addressable/uri'
 require 'httparty'
-require 'hashie'
 
 ####################################################
 ###### From https://github.com/leishman/kraken_ruby
