@@ -1,6 +1,6 @@
 require 'sinatra'
-require_relative 'services/kraken_service'
+require_relative 'services/kraken_client'
 
 get '/' do
-  Kraken::getAssets()
+  'Hello World'
 end
