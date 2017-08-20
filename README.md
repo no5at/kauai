@@ -1,1 +1,1 @@
-# kauai
+# KAUaI
