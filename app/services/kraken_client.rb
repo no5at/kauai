@@ -60,8 +60,7 @@ module Kraken
       r = self.class.get(url, query: opts)
 
       if r.success?
-        hash = Hashie::Mash.new(JSON.parse(r.body))
-        hash[:result]
+        JSON.parse(r.body)
       else
         raise r.code.to_s
       end
